@@ -4,9 +4,12 @@
   list-style: none;
   text-decoration: none;
   
+  
 }
 
 html, body, #root {
   min-height: 100vh;
   position: relative;
+  --main-background-color: rgb(232, 232, 125);
 }
+

@@ -9,26 +9,28 @@
 
 #quote-wrapper {
     text-align: center;
-
 }
 
 #text {
     font-size: 2.5rem;
     font-weight: bold;
     font-style: italic;
+    animation: fadein 2s ease-in-out normal;
+    
 }
 
 #author {
     display: flex;
     justify-content: flex-end;
     font-size: 1.3rem;
+    animation: fadein 2s ease-in-out normal;
 }
 
 #buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 #new-quote {
@@ -37,9 +39,21 @@
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 1.2rem;   
+    background-color: var(--main-background-color);
+}
+
+#tweet-quote {
+    display: flex;
+    align-items: center;
+}
+
+#github {
+    display: flex;
+    align-items: center;
 }
 
 #icon {
     width: 40px;
     height: 40px;
 }
+
