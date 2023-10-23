@@ -1,0 +1,25 @@
+.app-wrapper {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    animation: fadein 2s ease-in alternate;
+}
+
+/*
+@-webkit-keyframes fadein {
+    from: { opacity: 0; }
+    to: { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from: { opacity: 0; }
+    to: { opacity: 1; }
+}
+
+@keyframes fadein {
+    0% { background-color: #2323; }
+    100% { background-color: red; }
+
+*/
