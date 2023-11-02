@@ -1,5 +1,5 @@
 import React from 'react'
-import './previewer.css'
+import './Previewer.css'
 import DOMPurify from 'dompurify'
 import { marked } from 'marked'
 const Previewer = (props) => {
