@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #root {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(#030303, rgb(0, 91, 109));
+}
+
+.editor-wrapper textarea {
+  background-color: #89ccd3;
+}

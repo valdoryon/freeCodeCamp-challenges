@@ -1,0 +1,11 @@
+.editor-wrapper {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.editor-wrapper textarea {
+    padding: 5px 0;
+    min-height: 200px;
+    width: 100%;
+    resize: vertical;
+}
