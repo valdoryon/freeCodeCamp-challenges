@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #root {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(#dbdbdb, rgb(87, 93, 94));
+}
