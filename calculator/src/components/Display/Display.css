@@ -1,0 +1,16 @@
+#display {
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: #131313;
+    border-radius: 8px;
+    min-height: 90px;
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+#display span {
+    font-size: 2rem;
+}
