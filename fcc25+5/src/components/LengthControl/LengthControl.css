@@ -1,0 +1,29 @@
+.length-control {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    user-select: none;
+    
+  }
+  
+  .length-control span {
+    display: grid;
+    align-items: center;
+    font-size: 1rem;    
+  }
+
+  .length-control div {
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+
+  .length-control button {
+    cursor: pointer;
+    font-size: 1rem;    
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: white;
+  }
